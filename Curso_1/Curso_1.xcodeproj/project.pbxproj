@@ -11,6 +11,7 @@
 		A2038E3726595E4E002F2E1A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2038E3626595E4E002F2E1A /* ContentView.swift */; };
 		A2038E3926595E51002F2E1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2038E3826595E51002F2E1A /* Assets.xcassets */; };
 		A2038E3C26595E51002F2E1A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2038E3B26595E51002F2E1A /* Preview Assets.xcassets */; };
+		A2038E49265ACB59002F2E1A /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2038E48265ACB59002F2E1A /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		A2038E3826595E51002F2E1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2038E3B26595E51002F2E1A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A2038E3D26595E51002F2E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2038E48265ACB59002F2E1A /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,10 +54,11 @@
 		A2038E3326595E4E002F2E1A /* Curso_1 */ = {
 			isa = PBXGroup;
 			children = (
-				A2038E3426595E4E002F2E1A /* Curso_1App.swift */,
-				A2038E3626595E4E002F2E1A /* ContentView.swift */,
-				A2038E3826595E51002F2E1A /* Assets.xcassets */,
 				A2038E3D26595E51002F2E1A /* Info.plist */,
+				A2038E48265ACB59002F2E1A /* Launch Screen.storyboard */,
+				A2038E3626595E4E002F2E1A /* ContentView.swift */,
+				A2038E3426595E4E002F2E1A /* Curso_1App.swift */,
+				A2038E3826595E51002F2E1A /* Assets.xcassets */,
 				A2038E3A26595E51002F2E1A /* Preview Content */,
 			);
 			path = Curso_1;
@@ -126,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2038E49265ACB59002F2E1A /* Launch Screen.storyboard in Resources */,
 				A2038E3C26595E51002F2E1A /* Preview Assets.xcassets in Resources */,
 				A2038E3926595E51002F2E1A /* Assets.xcassets in Resources */,
 			);
